@@ -1,0 +1,49 @@
+.customLabel{
+    font-size:12px !important;
+    font-weight:466;
+    margin-top:7px;
+    margin-bottom:35px;
+}
+.inpComp{
+    width:100% !important;
+}
+.p-password .p-inputtext{
+    width:100% !important;
+}
+
+.countryRegionCss{
+    padding:9.5px;
+    width:100%;
+    border-radius:3px;
+    border-color:#d8d8d8;
+    color:#4d535a;
+    outline:grey;
+}
+
+.imageEmptyTemp{
+    font-size:15px !important;
+}
+.mt17{
+    margin-top:17px
+}
+.mt5{
+    margin-top:5px !important;
+}
+.mt35{
+    margin-top:35px;
+}
+.sButton{
+    float:right !important;
+    color:#2c8aec !important;
+    min-width:120px !important;
+    display:block !important;
+    text-align:center !important;
+    background-color:transparent !important;
+    border-radius:20px !important;
+    margin:20px 10px 0px auto !important;
+    padding: 5px !important;
+    font-size:14px !important;
+}
+.sButton:hover{
+    background-image:linear-gradient(to right, rgba(255,255,255)) !important;
+}

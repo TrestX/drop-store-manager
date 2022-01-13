@@ -1,0 +1,17 @@
+.acctBtn:hover{
+    background-image: linear-gradient('to right',rgb(23, 123, 238),rgb(26, 179, 230),rgb(72, 152, 223));
+    color:white;
+}
+
+.acctBtn{
+    font-size: "14px";
+    display:"block";
+    margin-left:"auto";
+    margin-right:"auto";
+    margin-top: "15px";
+    border-radius: "25px";
+    width:"100%";
+    padding: "0.5rem 1.25rem";
+    background-color:"transparent";
+    color:"blue";
+}

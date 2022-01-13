@@ -1,0 +1,30 @@
+.customLabel{
+    font-size:15px;
+    font-weight:466;
+    margin-top:7px;
+    margin-bottom:35px;
+}
+.dropDown{
+    min-width:190px;
+}
+
+.catButton{
+    float:right;
+    color:#2c8aec;
+    min-width:120px;
+    background-color:transparent;
+    border-radius:20px;
+    font-size:15px;
+    font-weight:600;
+    padding-top:3px;
+    padding-bottom:3px;
+    justify-content: center;
+    margin-top: 15px;
+}
+.catButton:hover{
+    background-image:linear-gradient(to right, rgba(255,255,255));
+}
+
+.customPadding{
+    padding:30px;
+}

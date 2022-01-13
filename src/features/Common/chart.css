@@ -1,0 +1,21 @@
+.p-calendar-w-btn .p-datepicker-trigger {
+    background-color: #fe385c;
+    border:#fe385c;
+    outline:#fe385c;
+}
+
+.p-calendar-w-btn .p-datepicker-trigger:hover {
+    background-color: #fe385c;
+    border:#fe385c;
+    outline:#fe385c;
+}
+.p-calendar-w-btn .p-datepicker-trigger:focus {
+    background-color: #fe385c;
+    border:#fe385c;
+    outline:#fe385c;
+}
+.p-button {
+    background-color: #fe385c;
+    border:#fe385c;
+    outline:#fe385c;
+}

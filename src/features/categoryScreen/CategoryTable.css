@@ -1,0 +1,81 @@
+.serverError{
+    font-size:11px;
+    font-weight:600;
+    color:#bf1a1a;
+}
+.customFont{
+    font-size:11px;
+    font-weight:600;
+    text-transform:capitalize;
+}
+.customFont2{
+    font-size:11px;
+    font-weight:600;
+    text-transform:capitalize;
+}
+.activeStatus{
+    font-size:11px;
+    font-weight:600;
+    color:green;
+}
+.notActiveStatus{
+    font-size:11px;
+    font-weight:600;
+    color:#aa0d0d;
+}
+.filterWidth{
+    width:127px;
+}
+.dialogCss{
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.dialogSize{
+    width:20vw;
+    font-size:15px;
+}
+
+.tableCard{
+    background-color:white;
+    border:none
+}
+
+.datatable-responsive .p-datatable-responsive .p-datatable-tbody > tr > td .p-column-title { display:block;
+}
+.datatable-responsive .p-datatable-responsive .p-datatable-thead > tr > th .p-column-title {
+    font-size:13px
+}
+
+@media screen and (max-width: 1100px) {
+    .datatable-responsive .p-datatable.p-datatable-responsive .p-datatable-thead > tr > th,
+    .datatable-responsive .p-datatable.p-datatable-responsive .p-datatable-tfoot > tr > td {
+        display: none !important;
+    }
+
+    .datatable-responsive .p-datatable.p-datatable-responsive .p-datatable-tbody > tr > td {
+        text-align: left !important;
+        display: block;
+        width: 100%;
+        float: left;
+        clear: left;
+        border: 0 none;
+    }
+
+    .datatable-responsive .p-datatable.p-datatable-responsive .p-datatable-tbody > tr > td .p-column-title {
+        padding: .4rem;
+        min-width: 30%;
+        display: inline-block;
+        margin: -.4em 1em -.4em -.4rem;
+        font-weight: bold;
+    }
+    .datatable-responsive .p-datatable.p-datatable-responsive .p-datatable-tbody > tr > td .cData {
+        padding: .4rem;
+        float: right;
+    }
+    .datatable-responsive .p-datatable.p-datatable-responsive .p-datatable-tbody > tr > td:last-child {
+        min-width:100%;
+        border-bottom: 1px solid var(--surface-d);
+    }
+}

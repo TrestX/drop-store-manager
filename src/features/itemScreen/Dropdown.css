@@ -1,0 +1,14 @@
+.dropdown-demo .p-dropdown {
+    width: 14rem;
+}
+
+.dropdown-demo .country-item-value img.flag {
+    width: 17px;
+}
+
+.p-dropdown-panel{
+    z-index: 9999;
+}
+.p-connected-overlay-enter-done{
+    z-index: 9999;
+}

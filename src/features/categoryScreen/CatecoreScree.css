@@ -1,0 +1,17 @@
+    /* not selected */
+    .p-tabview .p-tabview-nav li .p-tabview-nav-link {
+        text-decoration:none
+    }
+    /* hover */
+    .p-tabview .p-tabview-nav li:not(.p-highlight):not(.p-disabled):hover .p-tabview-nav-link {
+    color: grey;
+    text-decoration:none;
+    outline:none;
+    }
+    /* selected */
+    .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link{
+    color: grey;
+    text-decoration:none;
+    outline:none;
+    border:0;
+    }

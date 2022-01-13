@@ -1,0 +1,40 @@
+import * as ActionTypes from '../ActionTypes';
+
+const SellerReducer = (state = {
+    isLoading: true,
+    errMess: null,
+    data: null
+}, action: { type: any; payload: any; }) => {
+    switch (action.type) {
+        case ActionTypes.POST_Sellers_SUCCESS:
+            return { ...state, isLoading: false, errMess: null, data: action.payload };
+
+        case ActionTypes.POST_Sellers_REQUEST:
+            return { ...state, isLoading: true, errMess: null, data:null }
+
+        case ActionTypes.POST_Sellers_FAILURE:
+            return { ...state, isLoading: false, errMess: action.payload };
+
+        case ActionTypes.GET_Sellers_SUCCESS:
+            return { ...state, isLoading: false, errMess: null, data: action.payload };
+    
+        case ActionTypes.GET_Sellers_REQUEST:
+            return { ...state, isLoading: true, errMess: null, data:[] }
+    
+        case ActionTypes.GET_Sellers_FAILURE:
+            return { ...state, isLoading: false, errMess: action.payload };
+        
+        case ActionTypes.PUT_Sellers_SUCCESS:
+            return { ...state, isLoading: false, errMess: null, data: action.payload };
+        
+        case ActionTypes.PUT_Sellers_REQUEST:
+            return { ...state, isLoading: true, errMess: null, data:null }
+        
+        case ActionTypes.PUT_Sellers_FAILURE:
+            return { ...state, isLoading: false, errMess: action.payload };
+       
+        default:
+            return state;
+    }
+};
+export default SellerReducer;

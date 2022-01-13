@@ -1,0 +1,10 @@
+{
+    "data": [
+        {"id": "1003","email":"abcd@abcd.com","shopname": "ABCD","speciality":"UVW","area":"JK","totalorders":"469"},
+        {"id": "1004","email":"abcd@abcd.com","shopname": "EFGH","speciality":"XYZ","area":"LM","totalorders":"420"},
+        {"id": "1005","email":"abcd@abcd.com","shopname": "IJKL","speciality":"ABC","area":"NO","totalorders":"369"},
+        {"id": "1006","email":"abcd@abcd.com","shopname": "MNOP","speciality":"DEF","area":"PQ","totalorders":"320"},
+        {"id": "1007","email":"abcd@abcd.com","shopname": "QRST","speciality":"GHI","area":"RS","totalorders":"254"}
+    ]
+
+}

@@ -1,0 +1,41 @@
+
+{
+    "data": [
+        {
+          "id": "611becd7f401c5bfa8970dbb",
+          "email": "vinod@yopmail.com",
+          "name": "Vinod",
+          "gender": "Male",
+          "dob": "12/07/1991",
+          "account_type": "USER",
+          "orders": null
+        },
+        {
+          "id": "6120c0b2b91fb473b7769415",
+          "email": "test@test.com",
+          "name": "Test1",
+          "gender": "M",
+          "dob": "27/02/2100",
+          "account_type": "USER",
+          "orders": [
+            {
+              "id": "6121611ac04f78d78a1547ba",
+              "payment_amount": "usd 50",
+              "payment_method": "card",
+              "items_orderd": [
+                {
+                  "item_id": "61215d4f6bf7d895c4eeaf62",
+                  "quantity": 22
+                },
+                {
+                  "item_id": "61215db96bf7d895c4eeaf63",
+                  "quantity": 11
+                }
+              ]
+            }
+          ]
+        }
+      ]
+}
+
+
